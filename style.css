@@ -387,3 +387,67 @@ footer {
 .event-body {
     padding: 80px 100px;
 }
+.about {
+    background-color: #4a90c4;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    min-width: 120px;
+}
+
+.about-logo img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.about-logo-caption {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0;
+}
+
+.about-logo-caption strong {
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.about-text p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #fff;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
